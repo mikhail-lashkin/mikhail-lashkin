@@ -1,36 +1,36 @@
-# Mikhail Lashkin
+# Михаил Лашкин
 
-**Applied AI / NLP / LLM Engineer** with backend and systems-analysis background.
+**Applied AI / NLP / LLM Engineer** с backend- и системно-аналитическим бэкграундом.
 
-Focus: **NER · Information Extraction · Applied AI products** — from reproducible NLP pipelines to production-shaped MVPs.
+Фокус: **NER · Information Extraction · Applied AI** — от воспроизводимых NLP-пайплайнов до продуктовых MVP.
 
-Backend / PostgreSQL / BPMN / document workflow → NLP (spaCy NER) → Applied AI applications.
+Backend / PostgreSQL / BPMN / документооборот → NLP (spaCy NER) → прикладные AI-приложения.
 
-## Focus
+## Фокус
 
-- Named Entity Recognition & information extraction
-- Synthetic data for NER train/eval
-- Applied AI product engineering (API, offline-first mobile)
+- Named Entity Recognition и извлечение информации
+- Синтетические данные для train/eval NER
+- Продуктовый Applied AI (API, offline-first mobile)
 - Backend for AI: FastAPI, PostgreSQL, evaluation loops
 
-## Featured projects
+## Избранные проекты
 
-| Project | What it shows |
-|---------|----------------|
-| [**ner-pipeline**](https://github.com/mikhail-lashkin/ner-pipeline) | spaCy NER: train → entity-level eval → multi-doc linking & graphs |
-| [**synthetic-data-generator**](https://github.com/mikhail-lashkin/synthetic-data-generator) | YAML → reproducible NER corpora (JSONL) for train/eval |
+| Проект | Что показывает |
+|--------|----------------|
+| [**ner-pipeline**](https://github.com/mikhail-lashkin/ner-pipeline) | spaCy NER: train → entity-level eval → multi-doc linking и графы |
+| [**synthetic-data-generator**](https://github.com/mikhail-lashkin/synthetic-data-generator) | YAML → воспроизводимые NER-корпуса (JSONL) для train/eval |
 | [**apn-mvp-public**](https://github.com/mikhail-lashkin/apn-mvp-public) | AI Poker Notes — Expo + FastAPI + offline sync (public alpha) |
 
-Pipeline story: **Synthetic Data Generator → NER Pipeline**; **APN-MVP** — Applied AI product case (mobile + backend).
+Связка: **Synthetic Data Generator → NER Pipeline**; **APN-MVP** — продуктовый Applied AI кейс (mobile + backend).
 
-## Stack
+## Стек
 
 `Python` · `spaCy` · `FastAPI` · `PostgreSQL` · `Expo / React Native` · `pytest` · `Docker`
 
-## Background
+## Бэкграунд
 
-PostgreSQL / PL/pgSQL · REST APIs · BPMN / enterprise document workflows · system analysis · MVP design
+PostgreSQL / PL/pgSQL · REST API · BPMN / enterprise document workflows · системная аналитика · проектирование MVP
 
 ---
 
-Open to **Applied AI / NLP / Backend-for-AI** roles.
+Открыт к ролям **Applied AI / NLP / Backend-for-AI**.
