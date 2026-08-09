@@ -13,16 +13,14 @@ Backend / PostgreSQL / BPMN / документооборот → NLP (spaCy NER)
 - Синтетические данные для train/eval NER
 - Backend for NLP: FastAPI, PostgreSQL, evaluation loops
 
-
-
 ## Избранные проекты
 
 
-| Проект                                                                                      | Что показывает                                                                             |
-| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| **[ner-pipeline](https://github.com/mikhail-lashkin/ner-pipeline)**                         | spaCy NER: train → entity-level eval → multi-doc linking — IE / Document AI building block |
-| **[synthetic-data-generator](https://github.com/mikhail-lashkin/synthetic-data-generator)** | YAML → NER-корпуса (JSONL) для train/eval без чувствительных данных                        |
-| **[apn-mvp-public](https://github.com/mikhail-lashkin/apn-mvp-public)**                     | Product/backend MVP: Expo + FastAPI + offline sync                                         |
+| Проект                                                                                      | Что показывает                                                                                                                                                                         |
+| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[ner-pipeline](https://github.com/mikhail-lashkin/ner-pipeline)**                         | spaCy NER: train → entity-level eval → multi-doc linking — IE / Document AI building block                                                                                             |
+| **[synthetic-data-generator](https://github.com/mikhail-lashkin/synthetic-data-generator)** | YAML → NER-корпуса (JSONL) для train/eval без чувствительных данных                                                                                                                    |
+| **[apn-mvp-public](https://github.com/mikhail-lashkin/apn-mvp-public)**                     | Мобильное приложение для live-покера: заметки по оппонентам за столом, цветовые метки (ColorSystem), офлайн-очередь синхронизации и опциональные hybrid-рекомендации (rule map + LLM). |
 
 
 Связка: **Synthetic Data Generator → NER Pipeline**. APN-MVP — product/backend engineering.
