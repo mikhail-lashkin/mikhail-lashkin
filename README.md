@@ -1,36 +1,38 @@
 # Михаил Лашкин
 
-**Applied AI / NLP / LLM Engineer** с backend- и системно-аналитическим бэкграундом.
+**Senior ML / NLP Engineer — NER / Information Extraction / Document AI**
 
-Фокус: **NER · Information Extraction · Applied AI** — от воспроизводимых NLP-пайплайнов до продуктовых MVP.
+Фокус: **NER · IE · Document AI** — извлечение сущностей из документов и стык с production/enterprise-контуром (API, PostgreSQL, BPMN).
 
-Backend / PostgreSQL / BPMN / документооборот → NLP (spaCy NER) → прикладные AI-приложения.
+Backend / PostgreSQL / BPMN / документооборот → NLP (spaCy NER) → Document AI integrations.
 
 ## Фокус
 
-- Named Entity Recognition и извлечение информации
+- Named Entity Recognition и information extraction
+- Document AI: документы → сущности → БД / API / процессный контур
 - Синтетические данные для train/eval NER
-- Продуктовый Applied AI (API, offline-first mobile)
-- Backend for AI: FastAPI, PostgreSQL, evaluation loops
+- Backend for NLP: FastAPI, PostgreSQL, evaluation loops
+
+LLM / RAG — смежное направление роста, не заявленный core без отдельного публичного кейса.
 
 ## Избранные проекты
 
 | Проект | Что показывает |
 |--------|----------------|
-| [**ner-pipeline**](https://github.com/mikhail-lashkin/ner-pipeline) | spaCy NER: train → entity-level eval → multi-doc linking и графы |
-| [**synthetic-data-generator**](https://github.com/mikhail-lashkin/synthetic-data-generator) | YAML → воспроизводимые NER-корпуса (JSONL) для train/eval |
-| [**apn-mvp-public**](https://github.com/mikhail-lashkin/apn-mvp-public) | AI Poker Notes — Expo + FastAPI + offline sync (public alpha) |
+| [**ner-pipeline**](https://github.com/mikhail-lashkin/ner-pipeline) | spaCy NER: train → entity-level eval → multi-doc linking — IE / Document AI building block |
+| [**synthetic-data-generator**](https://github.com/mikhail-lashkin/synthetic-data-generator) | YAML → NER-корпуса (JSONL) для train/eval без чувствительных данных |
+| [**apn-mvp-public**](https://github.com/mikhail-lashkin/apn-mvp-public) | Product/backend MVP: Expo + FastAPI + offline sync (не основной ML-кейс) |
 
-Связка: **Synthetic Data Generator → NER Pipeline**; **APN-MVP** — продуктовый Applied AI кейс (mobile + backend).
+Связка: **Synthetic Data Generator → NER Pipeline**. APN-MVP — product/backend engineering.
 
 ## Стек
 
-`Python` · `spaCy` · `FastAPI` · `PostgreSQL` · `Expo / React Native` · `pytest` · `Docker`
+`Python` · `spaCy` · `FastAPI` · `PostgreSQL` · `BPMN / document workflow` · `pytest` · `Docker`
 
 ## Бэкграунд
 
-PostgreSQL / PL/pgSQL · REST API · BPMN / enterprise document workflows · системная аналитика · проектирование MVP
+PostgreSQL / PL/pgSQL · REST API · BPMN / enterprise document workflows · quality engineering · проектирование MVP
 
 ---
 
-Открыт к ролям **Applied AI / NLP / Backend-for-AI**.
+Открыт к ролям **NLP / NER / Document AI / Backend-for-AI**.
